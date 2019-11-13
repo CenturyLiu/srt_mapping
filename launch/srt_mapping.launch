@@ -1,0 +1,8 @@
+<launch>
+
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find srt_mapping)/rviz/srt_mapping.rviz"/>
+
+<node pkg="srt_mapping" type = "mapping.py" name = "srt_mapping"  />
+
+</launch>
